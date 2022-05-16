@@ -10,6 +10,7 @@
     "typescript": "^4.6.4"
   },
   "scripts": {
+    "heroku-postbuild": "cd ./apps/vetr-server && npm run build && cd .. && cd ./vetr-web && npm run build && cd ../../packages/vetr-web && npm run build",
     "start:server": "node ./apps/vetr-server/dist/app.js"
   }
 }
