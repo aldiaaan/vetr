@@ -10,7 +10,7 @@
     "typescript": "^4.6.4"
   },
   "scripts": {
-    "install": "lerna bootstrap && lerna run build",
+    "build:server": "lerna bootstrap && lerna run build",
     "start:server": "npm run build:server && node ./apps/vetr-server/dist/app.js"
   }
 }
