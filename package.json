@@ -10,7 +10,7 @@
     "typescript": "^4.6.4"
   },
   "scripts": {
-    "postinstall": "lerna bootstrap && lerna run build",
+    "postinstall": "lerna run build",
     "heroku-postbuildx": "cd ./apps/vetr-server && npm run build && cd .. && cd ./vetr-web && npm run build && cd ../../packages/vetr-web && npm run build",
     "start:server": "node ./apps/vetr-server/dist/app.js"
   }
