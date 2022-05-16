@@ -10,6 +10,10 @@ Mangadex.Context.API_ROOT_URL = !__DEV__
   ? `https://vter-proxy.herokuapp.com/${Mangadex.Context.API_ROOT_URL}`
   : Mangadex.Context.API_ROOT_URL;
 
+Mangadex.Context.STATIC_ROOT_URL = !__DEV__
+  ? `https://vter-proxy.herokuapp.com/${Mangadex.Context.STATIC_ROOT_URL}`
+  : Mangadex.Context.API_ROOT_URL;
+
 const queryClient = new QueryClient();
 
 export default function App() {
