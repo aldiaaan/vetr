@@ -1,8 +1,6 @@
 const path = require("path");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 
-console.log(process.env)
-
 module.exports = {
   plugins: [
     new HTMLWebpackPlugin({
