@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    ["@babel/preset-react", { "runtime": "automatic" }],
+    "@emotion/babel-preset-css-prop",
+    ["@babel/preset-typescript", { "allowNamespaces": true }]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "babel-plugin-twin",
+    "babel-plugin-macros",
+  ]
+}

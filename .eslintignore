@@ -1,0 +1,6 @@
+webpack*
+dist
+node_modules
+public
+tailwind.config.js
+.babelrc
